@@ -1,15 +1,9 @@
 {
   "name": "qa-test",
   "description": "Vuejs QA test component",
+  "author": "Ivan Kuzin <gtixdevelop@yandex.ru>",
   "version": "1.0.0",
-  "repository": "https://github.com/gtix/qa-test",
-  "homepage": "https://gtix.github.io/qa-test/",
   "main": "./lib/qa-test.common.js",
-  "keywords": [
-    "vue",
-    "question-answer",
-    "test qa"
-  ],
   "scripts": {
     "serve": "vue-cli-service serve --port 3000",
     "predeploy": "vue-cli-service build --mode demo",
@@ -51,5 +45,20 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "homepage": "https://gtix.github.io/qa-test/",
+  "keywords": [
+    "vue",
+    "javascript",
+    "vuejs",
+    "vue.js",
+    "vue component",
+    "question-answer",
+    "test qa"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtix/qa-test.git"
+  }
 }
