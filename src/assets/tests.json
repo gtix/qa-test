@@ -1,0 +1,96 @@
+[
+  {
+    "title": "Тест с отображением всех вопросов",
+    "mode": "multiply",
+    "timer": false,
+    "shuffle_answers": true,
+    "shuffle_questions": true,
+    "questions": [
+      {
+        "title": "Вопрос с одним ответом",
+        "mode": "single",
+        "hash": "mxkpCp5Q0vtVzvAy",
+        "answers": [
+          {
+            "id": "rdXTx0N108YU4xSq",
+            "text": "Ответ 1"
+          },
+          {
+            "id": "d0TVhRn3Elyg3EmT",
+            "text": "Ответ 2"
+          },
+          {
+            "id": "w1gdasDhQcRgDhs6",
+            "text": "Ответ 3"
+          }
+        ]
+      },
+      {
+        "title": "Вопрос с несколькими ответами",
+        "mode": "multiply",
+        "hash": "wPZR1lKkGu8qUGT7",
+        "answers": [
+          {
+            "id": "bxNrX5DehtP0fM9t",
+            "text": "Ответ 1"
+          },
+          {
+            "id": "TgwXRC77BuL9GU0e",
+            "text": "Ответ 2"
+          },
+          {
+            "id": "QCXmfZWoyo7Ngu8v",
+            "text": "Ответ 3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Тест с последовательным отображением вопросов",
+    "mode": "single",
+    "timer": 60,
+    "shuffle_answers": true,
+    "shuffle_questions": false,
+    "questions": [
+      {
+        "title": "Вопрос с одним ответом",
+        "mode": "single",
+        "hash": "mxkpCp5Q0vtVzvAy",
+        "answers": [
+          {
+            "id": "rdXTx0N108YU4xSq",
+            "text": "Ответ 1"
+          },
+          {
+            "id": "d0TVhRn3Elyg3EmT",
+            "text": "Ответ 2"
+          },
+          {
+            "id": "w1gdasDhQcRgDhs6",
+            "text": "Ответ 3"
+          }
+        ]
+      },
+      {
+        "title": "Вопрос с несколькими ответами",
+        "mode": "multiply",
+        "hash": "wPZR1lKkGu8qUGT7",
+        "answers": [
+          {
+            "id": "bxNrX5DehtP0fM9t",
+            "text": "Ответ 1"
+          },
+          {
+            "id": "TgwXRC77BuL9GU0e",
+            "text": "Ответ 2"
+          },
+          {
+            "id": "QCXmfZWoyo7Ngu8v",
+            "text": "Ответ 3"
+          }
+        ]
+      }
+    ]
+  }
+]
