@@ -1,8 +1,8 @@
-# qa-test
+# Документация
 
-## Project setup
+## Установка
 ```
-npm install
+npm install qa-test
 ```
 
 ### Compiles and hot-reloads for development
