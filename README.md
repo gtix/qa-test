@@ -22,13 +22,13 @@ Vue.component("vue-qa-test", VueQaTest);
 
 ```html
 <vue-qa-test
-  :questions="test.questions"
-  :title="test.title"
-  :mode="test.mode"
-  :timer="test.timer"
-  :shuffle-questions="test.shuffle_questions"
-  :shuffle-answers="test.shuffle_answers"
-  @onFinal="saveResult"
+	:questions="test.questions"
+	:title="test.title"
+	:mode="test.mode"
+	:timer="test.timer"
+	:shuffle-questions="test.shuffle_questions"
+	:shuffle-answers="test.shuffle_answers"
+	@onFinal="saveResult"
 />
 ```
 
@@ -36,8 +36,8 @@ Vue.component("vue-qa-test", VueQaTest);
 
 | props(Parameter)       | Type              | Default    | Description                                                      |
 | ---------------------- | ----------------- | ---------- | ---------------------------------------------------------------- |
-| questions (*required*) | `Array`           | -          | Список вопросов (пример ниже)                                    |
-| onFinal (*required*)   | `Function`        | -          | Функция завершения теста, в параметры приходит объект с ответами |
+| questions (_required_) | `Array`           | -          | Список вопросов (пример ниже)                                    |
+| onFinal (_required_)   | `Function`        | -          | Функция завершения теста, в параметры приходит объект с ответами |
 | title                  | `String`          | -          | Заголовок теста                                                  |
 | mode                   | `String`          | `multiply` | Режим отображения вопросов                                       |
 | timer                  | `Number, Boolean` | `false`    | Таймер для одиночных вопросов(mode - `single`). В секундах.      |
@@ -57,6 +57,8 @@ Vue.component("vue-qa-test", VueQaTest);
 - `single` - Ответ может быть только один (radio)
 
 ## Пример структуры вопроса
+
+В файле `src/assets/tests.json` есть тесты, которые используются в демо.
 
 ```js
 "questions": [
@@ -90,7 +92,7 @@ Vue.component("vue-qa-test", VueQaTest);
 {
   "wPZR1lKkGu8qUGT7":[ // HASH вопроса
     // К данному вопросу можно было выбрать несколько ответов
-    { 
+    {
       // Данные ответа
       "id":"bxNrX5DehtP0fM9t", // ID - Уникальное значение ответа
       "text":"Ответ 1" // Текст ответа
