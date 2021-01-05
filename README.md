@@ -58,7 +58,7 @@ Vue.component("vue-qa-test", VueQaTest);
 
 ## Пример структуры вопроса
 
-```json
+```js
 "questions": [
       {
         "title": "Вопрос с одним ответом", // Название
@@ -86,7 +86,7 @@ Vue.component("vue-qa-test", VueQaTest);
 
 ## Пример результата (@onFinal)
 
-```json
+```js
 {
   "wPZR1lKkGu8qUGT7":[ // HASH вопроса
     // К данному вопросу можно было выбрать несколько ответов
