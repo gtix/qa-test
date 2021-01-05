@@ -6,13 +6,13 @@ https://gtix.github.io/vue-qa-test
 
 ## Установка
 
-```
+```bash
 npm install vue-qa-test
 ```
 
 ## Добавление в проект
 
-```
+```js
 // main.js
 import VueQaTest from "vue-qa-test";
 Vue.component("vue-qa-test", VueQaTest);
@@ -20,7 +20,7 @@ Vue.component("vue-qa-test", VueQaTest);
 
 ## Пример
 
-```
+```html
 <vue-qa-test
   :questions="test.questions"
   :title="test.title"
@@ -36,8 +36,8 @@ Vue.component("vue-qa-test", VueQaTest);
 
 | props(Parameter)       | Type              | Default    | Description                                                      |
 | ---------------------- | ----------------- | ---------- | ---------------------------------------------------------------- |
-| questions (_required_) | `Array`           | -          | Список вопросов (пример ниже)                                    |
-| onFinal (_required_)   | `Function`        | -          | Функция завершения теста, в параметры приходит объект с ответами |
+| questions (*required*) | `Array`           | -          | Список вопросов (пример ниже)                                    |
+| onFinal (*required*)   | `Function`        | -          | Функция завершения теста, в параметры приходит объект с ответами |
 | title                  | `String`          | -          | Заголовок теста                                                  |
 | mode                   | `String`          | `multiply` | Режим отображения вопросов                                       |
 | timer                  | `Number, Boolean` | `false`    | Таймер для одиночных вопросов(mode - `single`). В секундах.      |
@@ -48,17 +48,17 @@ Vue.component("vue-qa-test", VueQaTest);
 
 #### Вопросы
 
-`multiply` - Вопросы отображаются списком. Внизу кнопка завершения теста.
-`single` - Вопросы отображаются по одному. После ответа на вопрос - появляется следующий, и так до тех пор, пока не закончатся вопросы.
+- `multiply` - Вопросы отображаются списком. Внизу кнопка завершения теста.
+- `single` - Вопросы отображаются по одному. После ответа на вопрос - появляется следующий, и так до тех пор, пока не закончатся вопросы.
 
 #### Ответы
 
-`multiply` - Можно выбрать несколько ответов (checkbox).
-`single` - Ответ может быть только один (radio)
+- `multiply` - Можно выбрать несколько ответов (checkbox).
+- `single` - Ответ может быть только один (radio)
 
 ## Пример структуры вопроса
 
-```
+```json
 "questions": [
       {
         "title": "Вопрос с одним ответом", // Название
@@ -86,7 +86,7 @@ Vue.component("vue-qa-test", VueQaTest);
 
 ## Пример результата (@onFinal)
 
-```
+```json
 {
   "wPZR1lKkGu8qUGT7":[ // HASH вопроса
     // К данному вопросу можно было выбрать несколько ответов
