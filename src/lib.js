@@ -1,2 +1,2 @@
-import qaTest from "./components/Test";
-export default qaTest;
+import vueQaTest from "./components/Test";
+export default vueQaTest;
