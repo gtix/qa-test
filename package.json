@@ -2,7 +2,7 @@
   "name": "vue-qa-test",
   "description": "Vuejs QA test component",
   "author": "Ivan Kuzin <gtixdevelop@yandex.ru>",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "./lib/vue-qa-test.common.js",
   "scripts": {
     "serve": "vue-cli-service serve --port 3000",
